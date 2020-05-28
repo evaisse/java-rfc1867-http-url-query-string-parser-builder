@@ -1,6 +1,7 @@
 # java-http-query-string-parser-builder
 
 [![Build Status](https://travis-ci.org/evaisse/java-rfc1867-http-url-query-string-parser-builder.svg?branch=master)](https://travis-ci.org/evaisse/java-rfc1867-http-url-query-string-parser-builder)
+[![codecov](https://codecov.io/gh/evaisse/java-rfc1867-http-url-query-string-parser-builder/branch/master/graph/badge.svg)](https://codecov.io/gh/evaisse/java-rfc1867-http-url-query-string-parser-builder)
 
 An [RFC1867](https://tools.ietf.org/html/rfc1867) compliant Java URL query string parser/builder
 

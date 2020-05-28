@@ -5,9 +5,9 @@ public class StringHelper {
     /**
      * Alias for javascript method "".slice()
      *
-     * @param str input string
+     * @param str  input string
      * @param from from index, can be negative to index from the end of the string
-     * @param to end index, can be negative to index from the end of the string
+     * @param to   end index, can be negative to index from the end of the string
      * @return a given sliced string
      */
     public static String slice(String str, int from, int to) {
@@ -24,12 +24,9 @@ public class StringHelper {
             from = Math.max(from, 0);
         }
 
-        to =
-                to < from
-                        ? from
-                        : (to > str.length()
-                                ? str.length()
-                                : to); // reset TO to minimum from index.
+        to = to < from
+            ? from
+            : (Math.min(to, str.length())); // reset TO to minimum from index.
 
         return str.substring(from, to);
     }
